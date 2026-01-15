@@ -1,0 +1,5 @@
+{
+  "name": "FAST PDF Stamper",
+  "description": "An automated tool that uses AI to detect QR codes on Truck Manifests and adds a 'FAST' stamp in an optimal location without obstructing critical information.",
+  "requestFramePermissions": []
+}

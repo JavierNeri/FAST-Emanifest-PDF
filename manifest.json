@@ -1,0 +1,22 @@
+
+{
+  "manifest_version": 3,
+  "name": "FAST PDF Stamper",
+  "version": "1.0.0",
+  "description": "Agrega automáticamente el sello 'FAST' arriba del código QR en tus manifiestos PDF usando IA.",
+  "permissions": [
+    "storage"
+  ],
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "FAST PDF Stamper"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' https://cdn.tailwindcss.com https://esm.sh; object-src 'self'"
+  }
+}
